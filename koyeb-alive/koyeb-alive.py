@@ -112,7 +112,7 @@ def main():
                 continue
 
             logging.info(f"正在处理第 {index}/{total_accounts} 个账户: {email}")
-            time.sleep(8)  # 保持登录间隔，防止触发速率限制
+            time.sleep(30)  # 保持登录间隔，防止触发速率限制
 
             try:
                 success, message = login_to_koyeb(email, password)

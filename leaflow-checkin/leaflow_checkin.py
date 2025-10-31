@@ -584,7 +584,7 @@ class MultiAccountManager:
                 
                 # 在账号之间添加间隔，避免请求过于频繁
                 if i < len(self.accounts):
-                    wait_time = 5
+                    wait_time = 30
                     logger.info(f"⏳ 等待{wait_time}秒后处理下一个账号...")
                     time.sleep(wait_time)
                     
