@@ -1,4 +1,4 @@
-name: Leaflow自动签到
+name: Leaflow自动
 
 on:
   schedule:

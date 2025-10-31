@@ -1,4 +1,4 @@
-name: Koyeb登录保活
+name: Koyeb登录
 
 on:
   schedule:
